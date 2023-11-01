@@ -1,13 +1,17 @@
 import fiftyone as fo
 import config
 
+fo.config.dataset_zoo_dir = config.DATASET_DIR
+
 print(f"Downloading dataset with {config.MAX_SAMPLES} MAX_SAMPLES from OpenImages")
 dataset = fo.zoo.load_zoo_dataset(
     config.DATASET_NAME,
     label_types=["detections"],
     classes=config.CLASSES,
-    max_samples=config.MAX_SAMPLES,
+    max_samples=config.MAX_SAMPLES
 )
+fo.zoo.load_zoo_dataset()
+fo.zoo.load_zoo_dataset
 
 dataset.persistent = True
 print("Available persistante datasets")

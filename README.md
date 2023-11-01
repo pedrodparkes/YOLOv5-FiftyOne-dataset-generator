@@ -1,5 +1,8 @@
-#### This simple repo aimed to help you collect your first dataset from open-dataset zoo (like Google Open-Images-v7),
+#### This simple repo aimed to help you collect your first dataset from open-dataset zoo 
+(like [Google Open-Images-v7](https://storage.googleapis.com/openimages/web/index.html)),
 #### Export Dataset to YOLOv5 format, Train YOLO and test the model on Luxonis OAK-D camera
+
+#### Datasets, available in [fuftyone detasets](https://docs.voxel51.com/user_guide/dataset_zoo/datasets.html)
 
 ### 1. Prepare dataset
 1. Edit config.py
